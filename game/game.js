@@ -119,7 +119,7 @@ function nextQuestion() {
         questionNumber.textContent = 'Question ' + count;  // Update display
 
         // CHANGE THIS BACK TO shuffledIndices WHEN DONE!!!!!!!!!!!!!!!!!!
-        if (count >= 1) {
+        if (count >= shuffledIndices) {
             // If all questions have been answered, navigate to end.html
             window.location.href = '/end/end.html';
         } else {
